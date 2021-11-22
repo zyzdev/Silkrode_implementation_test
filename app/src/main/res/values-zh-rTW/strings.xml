@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Silkrode_implementation_test</string>
+    <string name="string_user">使用者</string>
+    <string name="string_mine">自己</string>
+</resources>
