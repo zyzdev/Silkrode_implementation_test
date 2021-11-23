@@ -7,11 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.view.Window
 import androidx.fragment.app.DialogFragment
-import androidx.lifecycle.ViewModelProvider
 import com.example.silkrode_implementation_test.R
 import com.example.silkrode_implementation_test.databinding.UserInfoFragmentBinding
-import com.example.silkrode_implementation_test.model.ApiHandler
-import org.koin.android.ext.android.get
 import org.koin.android.ext.android.inject
 import org.koin.core.parameter.parametersOf
 

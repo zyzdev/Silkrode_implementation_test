@@ -2,5 +2,4 @@
     <string name="app_name">Silkrode_implementation_test</string>
     <string name="string_user">User</string>
     <string name="string_mine">Mine</string>
-    <string name="string_github" translatable="false">Github</string>
 </resources>

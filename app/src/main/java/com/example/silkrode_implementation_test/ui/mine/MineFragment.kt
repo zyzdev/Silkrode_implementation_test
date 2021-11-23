@@ -5,12 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
 import com.example.silkrode_implementation_test.databinding.MineFragmentBinding
-import com.example.silkrode_implementation_test.model.ApiHandler
-import com.example.silkrode_implementation_test.ui.userinfo.UserInfoApi
-import com.example.silkrode_implementation_test.ui.userinfo.UserInfoViewModel
-import org.koin.android.ext.android.get
 import org.koin.android.ext.android.inject
 import org.koin.core.parameter.parametersOf
 

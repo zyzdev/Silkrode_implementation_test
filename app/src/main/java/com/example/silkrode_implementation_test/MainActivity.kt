@@ -6,7 +6,6 @@ import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import androidx.viewpager2.widget.ViewPager2
 import com.example.silkrode_implementation_test.databinding.ActivityMainBinding
-import com.example.silkrode_implementation_test.model.ApiHandler
 import com.example.silkrode_implementation_test.ui.user.UserFragment
 import com.example.silkrode_implementation_test.ui.user.userViewModel
 import com.example.silkrode_implementation_test.ui.mine.MineFragment
@@ -72,7 +71,6 @@ class MainActivity : AppCompatActivity() {
 
     override fun onPause() {
         Logger.clearLogAdapters()
-        ApiHandler.destroy()
         super.onPause()
     }
 }
