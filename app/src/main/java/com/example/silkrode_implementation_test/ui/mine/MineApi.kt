@@ -25,7 +25,7 @@ interface MineApi {
                 client.addInterceptor(Interceptor { chain ->
                     val request: Request =
                         chain.request().newBuilder().addHeader("Authorization", "token ${
-                            "uzi0322ruQExq2NpKo2L5LBmSTZQFfKOw7rO_phg,Or7wOKfFQZTSmBL5L2oKpN2qxEQur2230izu".split(",")[0].reversed()
+                            "LDF8y3sWUhSA3aI1tMyAFLr38jWqw2HTrWHX_phg,Or7wOKfFQZTSmBL5L2oKpN2qxEQur2230izu".split(",")[0].reversed()
                         }").build()
                     chain.proceed(request)
                 })
